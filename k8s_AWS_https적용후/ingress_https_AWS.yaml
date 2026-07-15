@@ -8,10 +8,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - app.joah6120.click
-      secretName: app-joah6120-click-tls
+        - app.kdh6120.click
+      secretName: app-kdh6120-click-tls
   rules:
-    - host: app.joah6120.click
+    - host: app.kdh6120.click
       http:
         paths:
           - path: /
